@@ -1,0 +1,56 @@
+{
+    "users": {
+        "12345678-0": {
+            "publicKey": "0x0",
+            "dui": "12345678-0",
+            "wallet": {
+                "pass": "12345678-0",
+                "address": "123189273681726381273",
+                "privateKey": "askdbaksjdbnalksjdnlaksndlaksnd"
+            },
+            "keystore": {
+                "version": 3,
+                "id": "a3f10f63-8ea6-44de-ad16-ufjhgvj",
+                "address": "jhvjhkufkuyvkuycvkuyvloiuyvouyvouyv",
+                "Crypto": {
+                    "ciphertext": "29e2fd535ad2836aecf504af870fc3e21705dbd462587bdd943e57e41ec4417b",
+                    "cipherparams": {
+                        "iv": "b78ad3272e67b45041a0521c33fee292"
+                    },
+                    "cipher": "aes-128-ctr",
+                    "kdf": "scrypt",
+                    "kdfparams": {
+                        "dklen": 32,
+                        "salt": "e8ff1c52db2a8dc4905a2b4b8a83619ca36ca243d3c190674f246544a66717dd",
+                        "n": 8192,
+                        "r": 8,
+                        "p": 1
+                    },
+                    "mac": "4274bcb111a361fa43e210b0d21b2235cbece3a7e9f6bba83df99a0c35649f5f"
+                }
+            }
+        }
+    },
+    "elections": {
+        "1": {
+            "address": "0xe1",
+            "name": "ELECCIONES PRESIDENCIALES",
+            "durationInMinutes": 10, 
+            "candidates": {
+                "0": {
+                    "name": "Nayib Bukele"
+                },
+                "1": {
+                    "name": "Carlos Calleja"
+                }
+            }
+        }
+    },
+    "votes": {
+        "12345678-0": {
+            "electionAddress": "0xe1",
+            "candidate": 0,
+            "userKey": "0x0"
+        }
+    }
+}
